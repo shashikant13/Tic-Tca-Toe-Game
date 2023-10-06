@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #a287eb; /* Light Blue */
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #87eb89; /* Light Blue */
+}
+
+.title {
+  font-size: 36px;
+  color: #fff; /* White */
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #87CEEB; 
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #87CEEB; 
+}
+
+.title {
+  font-size: 36px;
+  color: #fff; 
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for the game board */
+  padding: 50px; 
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #000;
+  float: left;
+  font-size: 36px; 
+  font-weight: bold;
+  line-height: 50px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  margin: -1px 0 0 -1px;
+  cursor: pointer;
+}
+
+/* Add or update this CSS rule to style X and O individually */
+.square.X {
+  color: #FF0000; 
+}
+
+.square.O {
+  color: #0000FF; 
+}
+
+
